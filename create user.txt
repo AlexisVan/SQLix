@@ -1,0 +1,7 @@
+CREATE USER 'sqlix_u'@'localhost' IDENTIFIED BY 'Alexis';
+
+GRANT SELECT, INSERT, UPDATE,  DELETE ON SQLix.*TO 'sqlix'@'localhost';
+
+
+
+GRANT SELECT, INSERT, UPDATE, DELETE ON * . * TO 'sqlix_u'@'localhost';

@@ -1,0 +1,19 @@
+Microsoft Windows [version 10.0.18363.1379]
+(c) 2019 Microsoft Corporation. Tous droits réservés.
+
+C:\Users\Lenovo>cd C:\wamp64\bin\mysql\mysql8.0.21\bin
+
+C:\wamp64\bin\mysql\mysql8.0.21\bin>mysqldump -u root -h localhost -p -- databases sqlix > dump_sqlx.sql
+Enter password:
+mysqldump: Got error: 1049: Base 'databases' inconnue when selecting the database
+
+C:\wamp64\bin\mysql\mysql8.0.21\bin>mysqldump -u root -h localhost -p -- databases sqlix > dump_sqlx.sql
+Enter password:
+mysqldump: Got error: 1049: Base 'databases' inconnue when selecting the database
+
+C:\wamp64\bin\mysql\mysql8.0.21\bin>mysqldump -u root -h localhost -p --databases sqlix > dump_sqlx.sql
+Enter password:
+
+C:\wamp64\bin\mysql\mysql8.0.21\bin>
+
+

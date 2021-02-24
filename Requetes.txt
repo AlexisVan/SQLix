@@ -1,0 +1,45 @@
+1. 
+
+select * from potion;
+
+
+
+2. 
+
+select (nom_categ) from categorie where nb_points = 3;
+
+
+
+3. 
+
+select (nom_village) from village where nb_huttes >35;
+
+
+4. 
+
+select (num_trophee) from trophee where date_prise between' 2052-05-05 00:00:00' and' 2052-06-06 00:00:00';
+
+
+5. 
+
+select * from habitant where nom like 'a%r%';
+
+
+6. 
+
+select distinct (num_hab) from absorber where num_potion=1 or num_potion=
+
+
+7. 
+
+select num_trophee, date_prise, code_cat, num_preneur from trophee;
+
+8. 
+
+SELECT nom FROM habitant INNER JOIN village ON habitant.num_village = village.num_village  WHERE nom_village = 'Aquilona';
+
+
+
+9 . 
+
+SELECT nom FROM 

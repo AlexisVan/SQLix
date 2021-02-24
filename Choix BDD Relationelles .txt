@@ -1,0 +1,6 @@
+
+
+Nous avons choisis les BDD relationelles car ce type de base de données est très puissant pour stocker et manipuler des données très structurées. Il permet de gérer des BDD respectant les 4 critères ACID : Atomicité, Cohérence, Isolation et  Durabilité, et garantit donc la sécurité des transactions.
+    Les données sont stockées facilement et peuvent être extraites tout aussi facilement grâce aux requêtes SQL.
+    Les BDD relationnelles sont scalables. L’augmentation du volume de données stocké n’a pas d’incidence sur les données existantes et l’organisation de la base.
+    La gestion des accès et des droits d’utilisation est optimale. Les BDD relationnelles sont particulièrement bien adaptées pour les organisations qui ont besoin d’une gestion à plusieurs niveaux.
